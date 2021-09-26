@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Person from '../Person/Person.js';
-// import './Infromation.css';
+import Cart from '../Cart/Cart.js';
+import './Infromation.css';
 
 const Infromation = () => {
     const [persons, setPersons] = useState([]);
@@ -22,7 +23,8 @@ const Infromation = () => {
             </div>
 
             <div className="cart-container col-md-3">
-                <p>calculation</p>
+                <p>cart calcultion</p>
+                <Cart></Cart>
             </div>
 
         </div>

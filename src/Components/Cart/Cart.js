@@ -8,7 +8,7 @@ const Cart = (props) => {
 
     return (
         <div className="cart shadow p-2 mb-5 bg-body">
-            <h2>Memebers Added: {cart.length}</h2>
+            <h2><i class="fas fa-user"></i> Members Added: {cart.length}</h2>
             <ul>
                 {
                     cart.map(person => <li>{person.name}</li>)

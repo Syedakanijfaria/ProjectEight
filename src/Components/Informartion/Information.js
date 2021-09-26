@@ -26,7 +26,7 @@ const Infromation = () => {
             <div className="col-md-9">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
-                        persons.map(person => <Person person={person}
+                        persons.map(person => <Person key={person.id} person={person}
                             handleAddPerson={handleAddPerson}></Person>)
                     }
                 </div>

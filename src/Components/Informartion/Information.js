@@ -14,10 +14,11 @@ const Infromation = () => {
     return (
         <div className="row">
             <div className="info-container col-md-9">
-                <p>persons: {persons.length}</p>
-                {
-                    persons.map(person => <Person></Person>)
-                }
+                <div className="row row-cols-1 row-cols-md-3 g-4">
+                    {
+                        persons.map(person => <Person person={person}></Person>)
+                    }
+                </div>
             </div>
 
             <div className="cart-container col-md-3">

@@ -1,10 +1,12 @@
-import { useCallback } from 'react';
 import './App.css';
+import Header from './Components/Header/header.js';
+import Infromation from './Components/Informartion/Information.js';
 
 function App() {
   return (
-    <div>
-      <img src="https://miro.medium.com/max/3150/1*A8IqmApGUhvmD6A3A1TXBw.png"></img>
+    <div className="App">
+      <Header></Header>
+      <Infromation></Infromation>
     </div>
   );
 }

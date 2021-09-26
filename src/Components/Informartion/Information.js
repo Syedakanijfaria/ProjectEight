@@ -6,6 +6,15 @@ import './Infromation.css';
 const Infromation = () => {
     const [persons, setPersons] = useState([]);
 
+    // cart calculation
+    const [cart, setCart] = useState([]);
+    const handleAddPerson = (person) => {
+
+        const newCart = [...cart, person]
+        setCart(newCart)
+    }
+
+
     useEffect(() => {
         fetch('./persons.json')
             .then(res => res.json())
@@ -17,16 +26,15 @@ const Infromation = () => {
             <div className="info-container col-md-9">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
-                        persons.map(person => <Person person={person}></Person>)
+                        persons.map(person => <Person person={person}
+                            handleAddPerson={handleAddPerson}></Person>)
                     }
                 </div>
             </div>
 
             <div className="cart-container col-md-3">
-                <p>cart calcultion</p>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
-
         </div>
     );
 };

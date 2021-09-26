@@ -5,7 +5,7 @@
         "age": 36,
         "occupation": "programmer",
         "country": "Bangladesh",
-        "salary": 180000,
+        "donation": 70000,
         "role": "treasurer",
         "img": "https://miro.medium.com/max/3150/1*A8IqmApGUhvmD6A3A1TXBw.png"
     },
@@ -15,7 +15,7 @@
         "age": 34,
         "occupation": "programmer",
         "country": "Bangladesh",
-        "salary": 150000,
+        "donation": 40000,
         "role": "member",
         "img": "https://javascript-conference.com/wp-content/uploads/2018/01/Karina-Islam-1.jpg"
     },
@@ -25,7 +25,7 @@
         "age": 32,
         "occupation": "programmer",
         "country": "Bangladesh",
-        "salary": 170000,
+        "donation": 60000,
         "role": "marketing-officer",
         "img": "https://avatars.githubusercontent.com/u/6968100?v=4"
     },
@@ -35,7 +35,7 @@
         "age": 35,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 180000,
+        "donation": 80000,
         "role": "president",
         "img": "https://miro.medium.com/max/512/1*U95ylP54PyimoabpcSUNpg.jpeg"
     },
@@ -45,7 +45,7 @@
         "age": 45,
         "occupation": "programmer",
         "country": "UK",
-        "salary": 200000,
+        "donation": 70000,
         "role": "member",
         "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Anders_Hejlsberg.jpg"
     },
@@ -55,7 +55,7 @@
         "age": 40,
         "occupation": "programmer",
         "country": "Australia",
-        "salary": 200000,
+        "donation": 100000,
         "role": "secretary",
         "img": "https://upload.wikimedia.org/wikipedia/commons/3/36/Long_Zheng%2C_Dan_Rigsby%2C_Jeff_Atwood_%282979598012%29.jpg"
     },
@@ -65,7 +65,7 @@
         "age": 38,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 180000,
+        "donation": 80000,
         "role": "member",
         "img": "https://pbs.twimg.com/profile_images/1090714620275245056/HS9xcEDk_400x400.jpg"
     },
@@ -75,7 +75,7 @@
         "age": 43,
         "occupation": "programmer",
         "country": "Australia",
-        "salary": 190000,
+        "donation": 90000,
         "role": "fundraising-officer",
         "img": "https://avatars.githubusercontent.com/u/23374?v=4"
     },
@@ -85,7 +85,7 @@
         "age": 30,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 200000,
+        "donation": 47000,
         "role": "vice-president",
         "img": "https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco,dpr_1/f5kxq50j9x5opvy5xaef"
     },
@@ -95,7 +95,7 @@
         "age": 32,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 100000,
+        "donation": 38000,
         "role": "member",
         "img": "https://images.modelviewculture.com/wp-content/uploads/2014/10/dryden_authorphoto.png"
     },
@@ -105,7 +105,7 @@
         "age": 36,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 300000,
+        "donation": 30000,
         "role": "member",
         "img": "https://media.licdn.cn/dms/image/C5103AQEqhTWsN-f17g/profile-displayphoto-shrink_200_200/0/1516850063207?e=1636588800&v=beta&t=7waBTCgqscoURPCHm4y5dNUox4Den3TKmwSKdk9jrVI"
     },
@@ -115,7 +115,7 @@
         "age": 34,
         "occupation": "programmer",
         "country": "China",
-        "salary": 250000,
+        "donation": 25000,
         "role": "member",
         "img": "https://miro.medium.com/max/3150/1*QGOlZoDX_Zw9X1tCf6iFiA.jpeg"
     },
@@ -125,7 +125,7 @@
         "age": 37,
         "occupation": "programmer",
         "country": "UK",
-        "salary": 300000,
+        "donation": 39000,
         "role": "member",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61XmKcnHutL._SX450_.jpg"
     },
@@ -135,7 +135,7 @@
         "age": 40,
         "occupation": "programmer",
         "country": "USA",
-        "salary": 220000,
+        "donation": 22000,
         "role": "member",
         "img": "https://pbs.twimg.com/profile_images/918348833205116928/V9ROYRNJ.jpg"
     }

@@ -22,8 +22,8 @@ const Infromation = () => {
     }, [])
 
     return (
-        <div className="row">
-            <div className="info-container col-md-9">
+        <div className="row mx-auto">
+            <div className="col-md-9">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
                         persons.map(person => <Person person={person}
@@ -32,7 +32,7 @@ const Infromation = () => {
                 </div>
             </div>
 
-            <div className="cart-container col-md-3">
+            <div className="col-md-3">
                 <Cart cart={cart}></Cart>
             </div>
         </div>

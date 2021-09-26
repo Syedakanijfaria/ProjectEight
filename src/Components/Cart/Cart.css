@@ -1,4 +1,16 @@
 .cart{
     border: 2px solid #078080;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 20px;
+    text-align: left;
+}
+ul{
+    text-align: left;
+}
+.button{
+    background-color: #078080;
+    border: 1px solid #078080
+
 }

@@ -7,14 +7,15 @@ const Cart = (props) => {
     const total = cart.reduce(totalReducer, 0).toFixed(2);
 
     return (
-        <div className="cart">
-            <h1>Memebers Added: {cart.length}</h1>
+        <div className="cart shadow p-2 mb-5 bg-body">
+            <h2>Memebers Added: {cart.length}</h2>
             <ul>
                 {
                     cart.map(person => <li>{person.name}</li>)
                 }
             </ul>
-            <h1>Total Donation: {total}</h1>
+            <h2>Total Donation: $ {total}</h2>
+            <button className="button btn btn-secondary"> <i class="fas fa-shopping-cart"></i> Donate </button>
         </div>
     );
 };

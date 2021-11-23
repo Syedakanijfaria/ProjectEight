@@ -8,6 +8,7 @@ const Header = () => {
             <h3>Programming Hero Club</h3>
             <h6>It's a club for making new programmers and spreading programs into the world.</h6>
             <h3>Total Budget: 10 Million</h3>
+            <h3>Total Budget: 10 Million</h3>
         </div>
     );
 };
